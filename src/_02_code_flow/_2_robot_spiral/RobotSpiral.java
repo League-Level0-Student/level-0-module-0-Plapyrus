@@ -20,7 +20,7 @@ rob.setSpeed(27);
 		// COUNT. Create an int variable that will count how many lines of the spiral we have drawn.
 			//        Start its value as zero.
 int count = 0;
-while (count < 50) {
+while (count < 200) {
 		// LOOP. Start a while loop to repeat the COLOR, DRAW, TURN, and COUNT code below until 50 lines have been drawn
 rob.setRandomPenColor();
 			// COLOR.   Have the robot set a random pen color:      setRandomPenColor()

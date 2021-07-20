@@ -9,15 +9,15 @@ public class MadlibsOfTheAmazon {
 		String prompt =  "If you find yourself having to cross a piranha-infested river, here's how to do it..." +
 		
 		// Get the player to enter an adjective
-String input = "Piranhas are more [**adjective**] during the day, so cross the river at\n"  +
+ 
 		// Get the player to enter a type of liquid
- "night. Piranhas are attracted to fresh [**type of liquid**] and will most\n"  +
+ 
 		// Get the player to enter a body part
-"likely take a bite out of your [**body part**] if you [**verb**]. Whatever\n"  +
+
 		// Get the player to enter a verb
-"you do, if you have an open wound, try to find another way to get\n"  +
+
 		// Get the player to enter a place
-"back to the [**place**]. Good luck!";
+
 		// The story below has has been written as a group of Strings joined together by + signs.
 		// The story contains place holders, indicated by [** **] which you need to replace with
 		// the values entered by the player.

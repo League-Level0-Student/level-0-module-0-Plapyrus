@@ -13,7 +13,7 @@ public class QuizGame {
 		String input = JOptionPane.showInputDialog("Do you know what 12 times 37 is?");
 				// 3.  Use an if statement to check if their answer is correct
 				if (input.equals("444")) {
-					JOptionPane.showmessagedialog
+					score +=1;
 				}
 				// 4.  if the user's answer was correct, add one to their score 
 		

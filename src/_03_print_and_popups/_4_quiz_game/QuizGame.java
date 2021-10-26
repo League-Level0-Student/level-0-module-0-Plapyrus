@@ -27,8 +27,8 @@ public class QuizGame {
 				if (three.equals("3.14")) {
 					score +=1;
 				}
-				String four = JOptionPane.showInputDialog("How many letters are in this sentence.");
-				if (four.equals("31")) {
+				String four = JOptionPane.showInputDialog("What is the answer to 6x4x8x5x8x3x9x1x0.");
+				if (four.equals("0")) {
 					score +=1;
 				}
 		// After all the questions have been asked, tell the user their final score 

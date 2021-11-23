@@ -33,6 +33,6 @@ public class QuizGame {
 				}
 		// After all the questions have been asked, tell the user their final score 
 		
-				JOptionPane.showInputDialog("Congrats!");
+				JOptionPane.showMessageDialog(null, "Congrats, your score is 4!");
 	}
 }

@@ -22,19 +22,27 @@ public static void main(String[] args) {
 		// 4. Get the user to enter something that they think is awesome
 		String one = JOptionPane.showInputDialog("Say something you think is awesome!");
 		// 5. If your variable is  0
-	if 
+		if (num == 0) {
+		 JOptionPane.showMessageDialog(null,"That's amazing!");
+		} 
 			// -- tell the user whatever they entered is awesome!
 	
 		// 6. If your variable is  1
-	
+		if (num == 1) {
+			 JOptionPane.showMessageDialog(null,"Eh, it's ok.");
+			} 
 			// -- tell the user whatever they entered is ok.
 	
 		// 7. If your variable is  2
-	
+		if (num == 2) {
+			 JOptionPane.showMessageDialog(null,"Ok that's straight up boring.");
+			} 
 			// -- tell the user whatever they entered is boring.
 	
 		// 8. If your variable is  3
-	
+		if (num == 3) {
+			 JOptionPane.showMessageDialog(null,"Respectable opinion however I strongly disagree with you.");
+			} 
 			// -- invent your own message to give to the user (be nice).
 }
 }

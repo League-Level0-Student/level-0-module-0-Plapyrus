@@ -80,12 +80,13 @@ int endColor=-43230;
 
 		
 		
-		if (started) {
 		
 		
 			//9. If the mouse falls off the path (which means it is on the background color)
 			//		call the scare method - scare();
-			
+if (mouseColor==backgroundColor)
+	scare();
+
 			//13.  If the mouse is on the end color, pop up a message to tell them they won!
 			//    (you will need to get the number of the END COLOR by moving the mouse over it)
 if (mouseColor==endColor)
@@ -93,7 +94,8 @@ JOptionPane.showMessageDialog(null,"Congrats, you won!");
 					
 			
 		}	
-	}
+	
+	
 
 	private void scare() {
 		
@@ -107,7 +109,7 @@ JOptionPane.showMessageDialog(null,"Congrats, you won!");
 			//10. Find a scary sound and put it in the _04_amazing_games._1_scary_maze package (where you put your maze picture). 
 			//    You can find a sound on freesound.org. Log in as leagueofamazing/code4life.		
 			//11. Play the scary sound. Hint: use the playScarySound method with the name of your sound file		
-
+			playScarySound("superScarySound.wav");
 			
 		}	
 		/**********  SHOW A PICTURE ***************/

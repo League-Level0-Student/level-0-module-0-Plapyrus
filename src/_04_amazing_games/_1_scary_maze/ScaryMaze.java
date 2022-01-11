@@ -84,6 +84,8 @@ int endColor=-43230;
 		
 			//9. If the mouse falls off the path (which means it is on the background color)
 			//		call the scare method - scare();
+if (started) {
+
 if (mouseColor==backgroundColor)
 	scare();
 
@@ -92,11 +94,9 @@ if (mouseColor==backgroundColor)
 if (mouseColor==endColor)
 JOptionPane.showMessageDialog(null,"Congrats, you won!");
 					
-			
+}	
 		}	
 	
-	
-
 	private void scare() {
 		
 		//Scare your player with scary messages, sounds and pictures
@@ -116,7 +116,7 @@ JOptionPane.showMessageDialog(null,"Congrats, you won!");
 
 		//12. Find a scary image and drop it into the _04_amazing_games._1_scary_maze package. 
 		//    Use the showScaryImage method below and send it the name of your picture file
-		
+		showScaryImage("fistPump.png");
 		
 	}
 	

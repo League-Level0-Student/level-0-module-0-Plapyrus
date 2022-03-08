@@ -35,14 +35,18 @@ int dragonAttack=0;
 
 				// 3. Ask the player in a pop-up if they want to attack the dragon with a yell
 				// or a kick
-	
+	String input = JOptionPane.showInputDialog("Do you want to attack the dragon by yelling or kicking?");
 				// 4. If they typed in "yell":
-	
+	if (input.equals("Yelling")) {
+		ran.nextInt(10);
+	}
 					  // -- Find a random number between 0 and 10 and store it in playerAttack. Use
 					  // ran.nextInt(10)
 			ran.nextInt(10);
 				// 5. If they typed in "kick":
-	
+			if (input.equals("Kicking")) {
+				ran.nextInt(25);
+			}
 					  // -- Find a random number between 0 and 25 and store it in playerAttack.
 		ran.nextInt(25);
 				// 6. Subtract the player attack value from the dragon's health

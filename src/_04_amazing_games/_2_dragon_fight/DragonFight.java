@@ -45,14 +45,15 @@ int dragonAttack=0;
 			ran.nextInt(10);
 				// 5. If they typed in "kick":
 			if (input.equals("Kicking")) {
-				ran.nextInt(25);
-			}
+				int num = ran.nextInt(25);
+				
+			
 					  // -- Find a random number between 0 and 25 and store it in playerAttack.
-		ran.nextInt(25);
+			num = playerAttack;
 				// 6. Subtract the player attack value from the dragon's health
-
+			}
 			// THE DRAGON RETALIATES
-
+		
 				// 7. Find a random number between 0 and 35 and store it in dragonAttack
 	
 				// 8. Subtract the dragon attack value from the player's health

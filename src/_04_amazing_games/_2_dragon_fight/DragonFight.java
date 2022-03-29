@@ -37,6 +37,7 @@ int dragonAttack=0;
 				// or a kick
 	String input = JOptionPane.showInputDialog("Do you want to attack the dragon by yelling or kicking?");
 				// 4. If they typed in "yell":
+	int num = ran.nextInt(10);
 	if (input.equals("Yelling")) {
 		ran.nextInt(10);
 	}
